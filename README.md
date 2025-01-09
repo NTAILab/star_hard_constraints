@@ -9,7 +9,7 @@ It is recommended to use an isolated Python environment, e.g. created with [cond
 `star_hard_constraints` is a regular old-style Python package and can be installed
 in development mode with pip after cloning:
 
-```
+```bash
 git clone https://github.com/NTAILab/star_hard_constraints.git
 cd star_hard_constraints
 pip install -e .
@@ -37,7 +37,7 @@ Basically, to create a constrained neural network a user has to:
 
 For example, basic usage of layer and predefined neural network:
 
-```
+```python
 from star_hard_constraints.sdf import (
     SDFHalfSpace,
     SDFIntersection,
