@@ -82,4 +82,15 @@ interior_points = model(torch.randn((100, n_input_features)))
 
 ## Citation
 
-Will be available later
+```
+@article{konstantinov2024imposing,
+  title={Imposing Star-Shaped Hard Constraints on the Neural Network Output},
+  author={Konstantinov, Andrei and Utkin, Lev and Muliukha, Vladimir},
+  journal={Mathematics},
+  volume={12},
+  number={23},
+  pages={3788},
+  year={2024},
+  publisher={MDPI}
+}
+```
